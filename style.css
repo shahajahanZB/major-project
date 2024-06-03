@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a subtle border to container */
+    border-radius: 5px; /* Rounded corners for overall shape */
+}
+
+.file-upload {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.chatbot {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* White background for chatbot */
+    margin-right: 10px;
+}
+
+.chat-window {
+    border: none;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: #eee; /* Light gray for chat window */
+}
+
+.user-message {
+    font-weight: bold;
+    color: #333;
+}
+
+#chat-form {
+    display: flex;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#answer-text {
+    margin-bottom: 10px;
+}
+
+#pdf-preview {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    min-height: 200px;
+    background-color: #f5f5f5; /* Light gray for PDF preview */
+}
